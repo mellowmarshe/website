@@ -1,0 +1,27 @@
+@font-face {
+    font-family: cozette;
+    src: local("Cozette"), url(cozette.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #282828;
+    color: #fbf1c7;
+
+    font-family: cozette;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.accent-color {
+    color: #83a598;
+}
