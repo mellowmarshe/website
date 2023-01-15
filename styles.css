@@ -11,6 +11,8 @@ body {
     color: #fbf1c7;
 
     font-family: cozette;
+
+    margin: 0;
 }
 
 main {
@@ -19,9 +21,32 @@ main {
     align-items: center;
     justify-content: center;
 
+    margin: auto;
     margin-top: 50px;
+
+    width: 100%;
+    max-width: 37rem;
+}
+
+ul {
+    list-style: "@ ";
+}
+
+a {
+    text-decoration: none;
+    color: #458588;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #83a598;
 }
 
 .accent-color {
     color: #83a598;
+}
+
+.inner {
+    padding: 20px;
 }
